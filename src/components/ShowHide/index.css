@@ -5,15 +5,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
 }
 
-.name-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .heading {
   font-family: 'Roboto';
   font-size: 50px;
@@ -22,22 +17,27 @@
 
 .full-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .show-hide-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 20px;
+  height: 200px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .btn {
   background-color: white;
   border-radius: 10px;
   color: #dd1264;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   padding: 10px;
   border: none;
 }
@@ -47,8 +47,10 @@
   background-color: #fddddb;
   border-radius: 10px;
   padding: 30px;
-  height: 100px;
-  width: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-size: 30px;
   text-align: center;
 }

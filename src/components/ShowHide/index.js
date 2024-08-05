@@ -22,7 +22,7 @@ class ShowHide extends Component {
 
     return (
       <div className="container">
-        <div className="name-container">
+        <div>
           <h1 className="heading">Show/Hide</h1>
 
           <div className="full-container">
@@ -34,6 +34,7 @@ class ShowHide extends Component {
               >
                 Show/Hide Firstname
               </button>
+
               {hideFirstname ? null : <p className="name">Joe</p>}
             </div>
 
